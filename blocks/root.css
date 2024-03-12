@@ -1,0 +1,11 @@
+:root {
+   --color-main-purple: #7700D1;
+   --color-dark-purple: #4C0085;
+   --color-btn-yellow: #FFD500;
+
+   --font-family-base: 'GolosText', sans-serif;
+
+   --site-width-max: 1920px;
+   --site-width-min: 320px;
+   --container-width-max: 1515px;
+}

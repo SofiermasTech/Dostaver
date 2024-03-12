@@ -1,0 +1,16 @@
+body {
+   margin: 0;
+   height: 100%;
+}
+
+.page {
+   font-family: var(--font-family-base);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   max-width: var(--site-width-max);
+   min-width: var(--site-width-min);
+   width: 100%;
+   min-height: 100%;
+   background-color: var(--color-main-purple);
+}
