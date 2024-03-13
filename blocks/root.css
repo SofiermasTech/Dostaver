@@ -1,6 +1,7 @@
 :root {
    --color-main-purple: #7700D1;
    --color-dark-purple: #4C0085;
+   --color-dark-purple-opacity: rgba(76, 0, 133, .97);
    --color-btn-yellow: #FFD500;
 
    --font-family-base: 'GolosText', sans-serif;
