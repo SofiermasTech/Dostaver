@@ -1,0 +1,19 @@
+.logo-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 13px;
+}
+
+.logo-text {
+   margin: 0;
+   font-family: var(--font-family-accent);
+   font-size: 16px;
+   color: var(--color-dark-purple);
+   text-transform: uppercase;
+}
+
+.logo-img {
+   width: 36px;
+   height: 36px;
+}

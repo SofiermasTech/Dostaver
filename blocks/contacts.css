@@ -1,0 +1,45 @@
+.container-contacts {
+   display: flex;
+   gap: 25px;
+   color: #fff;
+}
+
+.contact-number {
+   font-size: 24px;
+}
+
+.contact-time {
+   margin: 0;
+   font-size: 16px;
+}
+
+@media screen and (max-width: 1100px) {
+    .contact-number {
+      font-size: 20px;
+   }
+
+   .contact-time {
+      font-size: 12px;
+   }
+}
+
+@media screen and (max-width: 950px) {
+   .container-contacts {
+      flex-direction: column;
+      gap: 10px;
+   }
+}
+
+@media screen and (max-width: 770px) {
+      .container-contacts {
+      flex-direction: row;
+      gap: 10px;
+   }
+}
+
+@media screen and (max-width: 670px) {
+     .container-contacts {
+      margin-top: 19px;
+      margin-bottom: 24px;
+   }
+}
