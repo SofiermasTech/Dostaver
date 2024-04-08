@@ -1,0 +1,66 @@
+.call-me {
+   margin-top: 44px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 10px;
+   max-width: 580px;
+}
+
+.call-me__input-mobile {
+   width: 284px;
+   border-radius: 44px;
+   background-color: #fff;
+   color: var(--color-dark-purple);
+   font-size: 18px;
+   font-weight: 500;
+   padding: 28px;
+   border: none;
+   outline: none;
+}
+
+.call-me__input-mobile::placeholder {
+   color: var(--color-dark-purple);
+   opacity: .4;
+   font-size: 15px;
+}
+
+.call-me__btn {
+   width: 284px;
+   padding: 28px;
+   border-radius: 44px;
+   border: none;
+   background-color: var(--color-btn-yellow);
+   text-transform: uppercase;
+   color: #3E3300;
+}
+
+/* .call-me__input-checkbox {
+   z-index: -1;
+   opacity: 0;
+} */
+
+/* .call-me__input-checkbox::before {
+   content: '';
+   width: 18px;
+   height: 18px;
+   background-color: #fff;
+   display: inline-block;
+} */
+
+.call-me__text {
+   font-size: 12px;
+}
+
+@media screen and (max-width: 1130px) {
+   .call-me {
+      flex-direction: column;
+      margin-left: 50px;
+   }
+}
+
+@media screen and (max-width: 770px) {
+   .call-me {
+      margin-left: 0;
+   }
+}

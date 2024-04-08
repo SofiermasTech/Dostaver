@@ -1,0 +1,146 @@
+.intro {
+   min-height: 760px;
+   width: 100vw;
+   background: url('../vendor/images/background.svg') no-repeat bottom;
+   background-size: contain;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.intro__wrapper {
+   max-width: var(--container-width-max);
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+}
+
+.intro__title {
+   margin-top: 66px;
+   margin-bottom: 24px;
+   max-width: 1190px;
+   font-weight: 500;
+   font-size: 42px;
+   text-align: center;
+}
+
+.intro__title span {
+   font-size: 72px;
+}
+
+.intro__subtitle {
+   margin: 0;
+   font-size: 20px;
+   max-width: 760px;
+   text-align: center;
+   line-height: 1.6;
+}
+
+.intro__statistic-element {
+   max-width: 140px;
+   position: absolute;
+   bottom: 30px;
+   left: 260px;
+   transform: rotate(-20deg);
+}
+
+.intro__statistic-title {
+   width: 128px;
+   height: 128px;
+   background-color: #fff;
+   border-radius: 50%;
+   padding: 32px 30px;
+   color: var(--color-dark-purple);
+   font-size: 18px;
+   text-align: center;
+   font-weight: 500;
+}
+
+.intro__statistic-title strong {
+   font-size: 36px;
+   font-weight: 500;
+}
+
+.intro__statistic-subtitle {
+   font-size: 14px;
+   text-align: center;
+}
+
+@media screen and (max-width: 1450px) {
+   .intro__statistic-element {
+      /* bottom: 60px; */
+      left: 120px;
+      transform: rotate(0deg);
+   }
+}
+
+@media screen and (max-width: 1130px) {
+
+   .intro__title {
+      margin-top: 40px;
+      max-width: 900px;
+      font-size: 36px;
+   }
+
+   .intro__title span {
+      font-size: 60px;
+   }
+
+   .intro__statistic-element {
+      bottom: 20px;
+      left: 140px;
+      transform: rotate(0deg);
+   }
+}
+
+@media screen and (max-width: 930px) {
+   .intro__title {
+      margin-top: 24px;
+      font-size: 24px;
+   }
+
+   .intro__subtitle {
+      font-size: 16px;
+   }
+
+   .intro__statistic-element {
+      bottom: 0px;
+      left: 80px;
+   }
+}
+
+@media screen and (max-width: 770px) {
+
+   .intro__title span {
+      font-size: 48px;
+   }
+
+   .intro__statistic-element {
+      position: relative;
+      left: 0;
+      margin-top: 20px;
+   }
+}
+
+@media screen and (max-width: 550px) {
+
+   .intro {
+      background: url('../vendor/images/background_mobile.svg') no-repeat bottom right;
+      background-size: 94%;
+      min-height: 1090px;
+      padding-left: 28px;
+      padding-right: 28px;
+   }
+
+   .intro__title {
+      margin-top: 0;
+   }
+
+   .intro__statistic-element {
+      position: relative;
+      left: 0;
+      margin-top: 20px;
+
+   }
+}

@@ -12,7 +12,8 @@ html {
 body {
    margin: 0;
    height: 100%;
-   box-sizing: border-box;
+   width: 100%;
+   box-sizing: inherit;
 }
 
 a {
@@ -21,6 +22,11 @@ a {
 
 a:hover {
    opacity: .5;
+}
+
+button:hover {
+   opacity: .8;
+   transform: scale(1.02);
 }
 
 ul,
@@ -35,10 +41,9 @@ ol {
    display: flex;
    flex-direction: column;
    align-items: center;
-   max-width: var(--site-width-max);
    min-width: var(--site-width-min);
    width: 100%;
    min-height: 100%;
    background-color: var(--color-main-purple);
-   
+   color: var(--color-text-base);
 }

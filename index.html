@@ -5,11 +5,12 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Dostaver</title>
-   <link rel="stylesheet" href="./pages/index.css">
+   <link rel="stylesheet" href="pages/index.css">
 </head>
 
 <body>
    <div class="page">
+
       <header class="header">
          <nav class="header__nav">
             <div class="header__nav-btn-close"></div>
@@ -46,9 +47,105 @@
             </div>
          </div>
       </header>
-
       <main class="main">
-
+     
+            <section class="intro container">
+               <div class="intro__wrapper">
+                  <h1 class="intro__title"><span>Курьерская доставка</span><br>для интернет-магазинов в пределах Москвы и
+                     МО
+                  </h1>
+                  <p class="intro__subtitle">Обеспечим вашему бизнесу доставку точно в срок и с удобной возможностью оплаты
+                     заказов для вас и ваших клиентов</p>
+                  <div class="call-me">
+                     <input type="tel" class="call-me__input-mobile" placeholder="Введите номер телефона">
+                     <button type="button" class="call-me__btn">ПЕРЕЗВОНИТЕ МНЕ</button>
+                     <div class="call-me__text">
+                        <input type="checkbox" class="call-me__input-checkbox">
+                        Я согласен с политикой конфиденциальности
+                     </div>
+                  </div>
+                  <div class="intro__statistic-element">
+                     <div class="intro__statistic-title"><strong>97%</strong> заказов</div>
+                     <p class="intro__statistic-subtitle">доставили вовремя в декабре 2021</p>
+                  </div>
+               </div>
+            </section>
+            <section class="price container">
+               <h1 class="title container">Стоимость курьерских услуг</h1>
+               <p class="subtitle container">Вес и стоимость в таблице указаны для одной доставки</p>
+               <div class="price__table">
+                  <table class="table">
+                     <thead>
+                        <tr>
+                           <th class="table__title">Доставок в день</th>
+                           <th class="table__title-row">от 51</th>
+                           <th class="table__title-row">до 50</th>
+                           <th class="table__title-row">до 25</th>
+                           <th class="table__title-row">до 10</th>
+                        </tr>
+                        <tr>
+                           <th class="table__title">Вес, до</th>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <th class="table__title-column">1 кг.</th>
+                           <td>180</td>
+                           <td>200</td>
+                           <td>220</td>
+                           <td>240</td>
+                        </tr>
+                        <tr>
+                           <th class="table__title-column">3 кг.</th>
+                           <td>200</td>
+                           <td>220</td>
+                           <td>240</td>
+                           <td>260</td>
+                        </tr>
+                        <tr>
+                           <th class="table__title-column">5 кг.</th>
+                           <td>220</td>
+                           <td>240</td>
+                           <td>260</td>
+                           <td>280</td>
+                        </tr>
+                        <tr>
+                           <th class="table__title-column">10 кг.</th>
+                           <td>270</td>
+                           <td>290</td>
+                           <td>310</td>
+                           <td>330</td>
+                        </tr>
+                        <tr>
+                           <th class="table__title-column">15 кг.</th>
+                           <td>370</td>
+                           <td>390</td>
+                           <td>410</td>
+                           <td>430</td>
+                        </tr>
+                        <tr>
+                           <th class="table__title-column">20 кг.</th>
+                           <td>400</td>
+                           <td>430</td>
+                           <td>470</td>
+                           <td>490</td>
+                        </tr>
+                        <tr>
+                           <th class="table__title-column">Забор товара</th>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>0</td>
+                           <td>290</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </section>
+        
       </main>
 
       <footer class="footer">
@@ -67,7 +164,6 @@
                   <a href="#" class="footer__privacy-link">Полные правила</a>
                </div>
             </div>
-
             <div class="container-contacts footer__container-contacts">
                <div class="contact-number"> +7 499 408 47 70
                   <p class="contact-time">ежедневно с 08:00 до 20:00</p>
@@ -81,9 +177,9 @@
                   </a>
                </div>
             </div>
-
          </div>
       </footer>
+
    </div>
 
    <script src="./pages/index.js"></script>
