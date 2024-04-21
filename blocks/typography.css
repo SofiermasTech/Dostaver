@@ -1,22 +1,24 @@
-.title {
-   font-size: var(--font-size-title);
+.title,
+.subtitle {
+   min-width: var(--container-width-min);
    margin: 0;
    text-align: center;
+   line-height: 1.2;
+}
+
+.title {
+   font-size: var(--font-size-title);
+   font-weight: 500;
 }
 
 .subtitle {
    font-size: var(--font-size-subtitle);
-   margin: 0;
-   text-align: center;
+   font-weight: 400;
+   margin-top: 30px;
 }
 
 @media screen and (max-width: 550px) {
    .title {
       font-size: var(--font-size-title-mobile);
-      
-   }
-
-   .subtitle {
-     
    }
 }

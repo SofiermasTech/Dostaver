@@ -1,14 +1,11 @@
 .intro {
    min-height: 760px;
-   width: 100vw;
+   width: 100%;
    background: url('../vendor/images/background.svg') no-repeat bottom;
    background-size: contain;
-   padding-left: 10px;
-   padding-right: 10px;
 }
 
 .intro__wrapper {
-   max-width: var(--container-width-max);
    margin: 0 auto;
    display: flex;
    flex-direction: column;
@@ -20,6 +17,7 @@
    margin-top: 66px;
    margin-bottom: 24px;
    max-width: 1190px;
+   min-width: var(--container-width-min);
    font-weight: 500;
    font-size: 42px;
    text-align: center;
@@ -33,6 +31,7 @@
    margin: 0;
    font-size: 20px;
    max-width: 760px;
+   min-width: var(--container-width-min);
    text-align: center;
    line-height: 1.6;
 }
@@ -69,14 +68,12 @@
 
 @media screen and (max-width: 1450px) {
    .intro__statistic-element {
-      /* bottom: 60px; */
       left: 120px;
       transform: rotate(0deg);
    }
 }
 
 @media screen and (max-width: 1130px) {
-
    .intro__title {
       margin-top: 40px;
       max-width: 900px;
@@ -111,7 +108,6 @@
 }
 
 @media screen and (max-width: 770px) {
-
    .intro__title span {
       font-size: 48px;
    }
@@ -124,13 +120,10 @@
 }
 
 @media screen and (max-width: 550px) {
-
    .intro {
       background: url('../vendor/images/background_mobile.svg') no-repeat bottom right;
       background-size: 94%;
       min-height: 1090px;
-      padding-left: 28px;
-      padding-right: 28px;
    }
 
    .intro__title {
@@ -141,6 +134,5 @@
       position: relative;
       left: 0;
       margin-top: 20px;
-
    }
 }

@@ -12,7 +12,8 @@
    --font-size-subtitle: 20px;
 
    --site-width-max: 1920px;
-   --site-width-min: 320px;
+   --site-width-min: 360px;
    --container-width-max: 1515px;
-   --container-padding-x: 20px;
+   --container-width-min: 303px;
+   --container-padding-x: 28px;
 }

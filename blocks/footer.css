@@ -40,7 +40,6 @@
    color: var(--color-dark-purple);
    font-weight: 500;
    padding-bottom: 5px;
-   /* border-bottom: 2px dashed var(--color-dark-purple); */
    text-decoration: underline dashed;
 }
 

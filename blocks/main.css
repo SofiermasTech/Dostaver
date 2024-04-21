@@ -1,17 +1,17 @@
 .container {
-   max-width: calc(var(--container-width-max) + var(--container-padding-x) * 2);
-   min-width: calc(var(--site-width-min) + var(--container-padding-x) * 2);
+   max-width: var(--container-width-max);
+   min-width: var(--container-width-min);
    padding-inline: var(--container-padding-x);
-   box-sizing: border-box;
 }
 
 .main {
+   min-width: var(--site-width-min);
    margin-inline: auto;
+   width: 100%;
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
    flex-grow: 1;
+   padding-bottom: 60px;
 }
-
-@media screen and (max-width: 550px) {}

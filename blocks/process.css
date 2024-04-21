@@ -1,0 +1,110 @@
+.process {
+   margin-top: 80px;
+   margin-bottom: 100px;
+   background: url('../vendor/images/background_process.svg') no-repeat bottom;
+   background-size: contain;
+   width: 100%;
+}
+
+.process__wrapper {
+   margin-inline: auto;
+}
+
+.process__items {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+   align-items: center;
+   justify-content: center;
+   margin-top: 63px;
+   margin-bottom: 53px;
+}
+
+.process__item {
+   background-color: var(--color-text-base);
+   width: 560px;
+   min-height: 380px;
+   border-radius: 38px;
+   padding: 51px 46px 43px;
+   color: var(--color-dark-purple);
+}
+
+.process__item-wrapper-title {
+   display: flex;
+   gap: 29px;
+   align-items: center;
+   justify-content: flex-start;
+   margin-bottom: 32px;
+}
+
+.process__item-number {
+   width: 58px;
+   height: 58px;
+   border-radius: 50%;
+   padding-top: 15px;
+   background-color: var(--color-main-purple);
+   color: var(--color-text-base);
+   text-align: center;
+   font-size: var(--font-size-subtitle);
+   font-weight: 400;
+   margin: 0;
+   flex-basis: 60px;
+}
+
+.process__item-title {
+   margin: 0;
+   font-size: 22px;
+   font-weight: 500;
+   flex-shrink: 3;
+}
+
+.process__item-text {
+   margin-top: 0;
+   margin-bottom: 35px;
+   font-size: 18px;
+   line-height: 1.3;
+}
+
+.process__item-text:last-child {
+   margin-bottom: 0;
+}
+
+.process__link {
+   text-decoration: underline dashed;
+   display: block;
+   margin: 0 auto;
+}
+
+@media screen and (max-width: 550px) {
+   .process {
+      margin-top: 25px;
+      margin-bottom: 40px;
+      background: url('../vendor/images/background_process_mobile.svg') no-repeat;
+      background-position: bottom center;
+      background-size: contain;
+      width: 100%;
+      padding-bottom: 560px;
+   }
+
+   .process__items {
+      gap: 20px;
+      margin-top: 24px;
+      margin-bottom: 26px;
+   }
+
+   .process__item {
+      padding: 28px 26px 34px;
+   }
+
+   .process__item-wrapper-title {
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 20px;
+   }
+}
+
+@media screen and (max-width: 400px) {
+   .process {
+      padding-bottom: 420px;
+   }
+}

@@ -11,5 +11,7 @@
 @import url('../blocks/main.css');
 @import url('../blocks/intro.css');
 @import url('../blocks/price.css');
+@import url('../blocks/process.css');
+@import url('../blocks/about-me.css');
 
 @import url('../blocks/footer.css');

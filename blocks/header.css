@@ -58,6 +58,7 @@
       height: 50%;
       background-color: var(--color-dark-purple-opacity);
       padding: 80px 55px 60px;
+      z-index: 99;
    }
 
    .menu_active {
