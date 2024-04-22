@@ -59,10 +59,13 @@
                <div class="call-me">
                   <input type="tel" class="call-me__input-mobile" placeholder="Введите номер телефона">
                   <button type="button" class="call-me__btn">ПЕРЕЗВОНИТЕ МНЕ</button>
-                  <div class="call-me__text">
-                     <input type="checkbox" class="call-me__input-checkbox">
-                     Я согласен с политикой конфиденциальности
-                  </div>
+
+                  <label class="call-me__checkbox-label" for="checkbox">
+                     <input type="checkbox" class="call-me__checkbox-hidden" id="checkbox">
+                     <span class="call-me__checkbox-visible"></span>
+                     <span class="call-me__checkbox-text">Я согласен с политикой конфиденциальности</span>
+                  </label>
+
                </div>
                <div class="intro__statistic-element">
                   <div class="intro__statistic-title"><strong>97%</strong> заказов</div>
@@ -221,7 +224,8 @@
                   </div>
                   <div class="about-me__circle circle-big">
                      <h3 class="about-me__circle-title">2700+</h3>
-                     <p class="about-me__circle-subtitle">клиентов из YouDo оценили мою работу на 5 по статистике за 3 года работы — с 2019 по 2021</p>
+                     <p class="about-me__circle-subtitle">клиентов из YouDo оценили мою работу на 5 по статистике за 3
+                        года работы — с 2019 по 2021</p>
                      <img src="./vendor/images/circle_info.png" alt="График с отзывами." class="about-me__circle-img">
                      <a href="#" class="about-me__link">Посмотреть профиль</a>
                   </div>
