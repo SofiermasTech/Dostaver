@@ -10,6 +10,12 @@
    margin-inline: auto;
 }
 
+.about-me__title,
+.about-me__subtitle {
+   max-width: 820px;
+   margin-inline: auto;
+}
+
 .process__items {
    display: flex;
    flex-wrap: wrap;

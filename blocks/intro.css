@@ -84,6 +84,10 @@
       font-size: 60px;
    }
 
+   .intro__call-me {
+      margin-left: 50px;
+   }
+
    .intro__statistic-element {
       bottom: 20px;
       left: 140px;
@@ -110,6 +114,10 @@
 @media screen and (max-width: 770px) {
    .intro__title span {
       font-size: 48px;
+   }
+
+   .intro__call-me {
+      margin-left: 0;
    }
 
    .intro__statistic-element {
