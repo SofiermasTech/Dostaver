@@ -1,3 +1,7 @@
+.logo-link {
+   display: block;
+}
+
 .logo-container {
    display: flex;
    align-items: center;

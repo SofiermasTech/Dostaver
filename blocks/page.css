@@ -22,6 +22,10 @@ a {
    transition: opacity 0.5s;
 }
 
+a:visited {
+   color: #e1d0ed;
+}
+
 a:hover {
    opacity: .5;
 }
@@ -35,9 +39,12 @@ button:hover {
    transform: scale(1.02);
 }
 
+ul {
+   list-style: none;
+}
+
 ul,
 ol {
-   list-style: none;
    margin: 0;
    padding: 0;
 }

@@ -1,0 +1,25 @@
+.privacy {
+   padding-top: 100px;
+}
+
+.privacy__wrapper {
+   max-width: 1110px;
+   margin-inline: auto;
+}
+
+.privacy__list {
+   margin-top: 60px;
+   text-align: left;
+   font-size: 20px;
+   padding-inline-start: 0px;
+}
+
+.privacy__list-item {
+   text-align: left;
+   font-size: 20px;
+   margin-top: 30px;
+}
+
+.privacy__list-item p {
+   font-size: 14px;
+}
