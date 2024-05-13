@@ -58,9 +58,8 @@
                </h1>
                <p class="intro__subtitle">Обеспечим вашему бизнесу доставку точно в срок и с удобной возможностью оплаты
                   заказов для вас и ваших клиентов</p>
-               <form class="intro__call-me call-me" method="post"">
-                  <input type=" tel" class="call-me__input-mobile" placeholder="Введите номер телефона"
-                  pattern="[+]7-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+               <form class="intro__call-me call-me" method="post" name="callMeForm">
+                  <input type="tel" class="call-me__input-mobile" placeholder="Введите номер телефона" name="callMeInputPhone">
                   <button type="submit" class="call-me__btn">ПЕРЕЗВОНИТЕ МНЕ</button>
 
                   <label class="call-me__checkbox-label" for="checkbox">
@@ -321,9 +320,8 @@
                <h3 class="title">Отправляйте заявку, чтобы обсудить условия сотрудничества</h3>
                <p class="subtitle">или свяжитесь с нами как вам будет удобно — по телефону либо в одном из
                   мессенджеров</p>
-               <form class="call-me" method="post"">
-                  <input type=" tel" class="call-me__input-mobile" placeholder="Введите номер телефона"
-                  pattern="[+]7-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+               <form class="call-me" method="post" name="callMeForm">
+                  <input type="tel" class="call-me__input-mobile" placeholder="Введите номер телефона" name="callMeInputPhone">
                   <button type="submit" class="call-me__btn">ПЕРЕЗВОНИТЕ МНЕ</button>
                   <label class="call-me__checkbox-label" for="checkbox-bottom">
                      <input type="checkbox" class="call-me__checkbox-hidden" id="checkbox-bottom">
@@ -378,6 +376,7 @@
 
    </div>
 
+   <script src="https://unpkg.com/imask"></script>
    <script src="./pages/index.js"></script>
 </body>
 

@@ -11,6 +11,20 @@ btnOpenMenu.addEventListener('click', toggleBurgerMenu)
 btnCloseMenu.addEventListener('click', toggleBurgerMenu)
 
 
+/* --------------------- Telephone number mask --------------------- */
+const inputPhone = Array.from(document.querySelectorAll('.call-me__input-mobile'));
+
+// слушатель для всех input
+inputPhone.forEach((item) => {
+   item.addEventListener('input', () => {
+      IMask(
+         item,
+         {mask: '+7(000) 000-00-00'}
+      );
+   })
+})
+
+
 /* --------------------- Button scroll-up --------------------- */
 const offset = 700;
 const btnScrollUp = document.querySelector('.btn-scroll-up');
